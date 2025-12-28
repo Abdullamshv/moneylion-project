@@ -4,7 +4,6 @@ import { Github, Linkedin, Smartphone, Code, TrendingUp, MapPin, Calendar, Mail 
 const Portfolio = () => {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans">
-      {/* Hero Section */}
       <header className="bg-teal-600 text-white py-20 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="inline-block bg-teal-700 text-teal-100 px-3 py-1 rounded-full text-sm font-semibold mb-4">
@@ -22,17 +21,15 @@ const Portfolio = () => {
             <a href="mailto:abdullamshv@gmail.com" className="bg-white text-teal-700 hover:bg-teal-50 px-6 py-3 rounded-lg font-bold flex items-center transition">
               <Mail className="w-5 h-5 mr-2" /> Contact Me
             </a>
-            <a href="https://linkedin.com/in/YOUR_PROFILE" className="border-2 border-white text-white hover:bg-white/10 px-6 py-3 rounded-lg font-bold flex items-center transition">
+            <a href="www.linkedin.com/in/abdulla-mashayev" className="border-2 border-white text-white hover:bg-white/10 px-6 py-3 rounded-lg font-bold flex items-center transition">
               <Linkedin className="w-5 h-5 mr-2" /> LinkedIn
             </a>
           </div>
         </div>
       </header>
 
-      {/* Main Content Grid */}
       <main className="max-w-4xl mx-auto px-6 py-12 grid gap-12">
         
-        {/* Section 1: The "Proof" (FinTech Experience) */}
         <section>
           <h2 className="text-3xl font-bold text-slate-800 mb-6 flex items-center">
             <TrendingUp className="w-8 h-8 text-teal-600 mr-3" />
@@ -57,7 +54,6 @@ const Portfolio = () => {
           </div>
         </section>
 
-        {/* Section 2: The Stack */}
         <section>
           <h2 className="text-3xl font-bold text-slate-800 mb-6 flex items-center">
             <Code className="w-8 h-8 text-teal-600 mr-3" />
@@ -92,7 +88,6 @@ const Portfolio = () => {
           </div>
         </section>
 
-        {/* Section 3: Logistics */}
         <section className="bg-slate-800 text-slate-300 p-8 rounded-2xl">
           <h2 className="text-2xl font-bold text-white mb-6">Logistics & Availability</h2>
           <div className="grid md:grid-cols-3 gap-6">
@@ -116,7 +111,7 @@ const Portfolio = () => {
               <Github className="w-6 h-6 text-teal-400 mr-3 mt-1" />
               <div>
                 <strong className="block text-white">Code Quality</strong>
-                <a href="https://github.com/YOUR_GITHUB" className="underline hover:text-teal-400 transition">View my GitHub</a>
+                <a href="https://github.com/Abdullamshv" className="underline hover:text-teal-400 transition">View my GitHub</a>
               </div>
             </div>
           </div>
